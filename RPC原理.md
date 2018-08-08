@@ -4,6 +4,8 @@ RPC（Remote Procedure Call Protocol），在各大互联网公司中被广泛�
 ```
 
 # RPC调用的流程
+![RPC流程图](./images/rpc-1.png)
+
 1. **服务消费方（client）调用以本地调用方式调用服务；**
 
 2. **client stub接收到调用后负责将方法、参数等组装成能够进行网络传输的消息体；**
